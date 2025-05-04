@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // สร้าง instance ของ axios แบบง่าย
 const axiosInstance = axios.create({
-    baseURL: process.env.NEXT_PUBLIC_API_URL || 'https://web-vcxmmaxv8vg8.up-de-fra1-k8s-1.apps.run-on-seenode.com',
+    baseURL: process.env.NEXT_PUBLIC_API_URL || 'https://web-jzo2g9de43r6.up-de-fra1-k8s-1.apps.run-on-seenode.com',
     headers: {
         'Content-Type': 'application/json',
     },
